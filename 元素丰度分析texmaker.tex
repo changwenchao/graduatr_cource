@@ -1,0 +1,41 @@
+\documentclass{aastex62}
+
+\begin{document}
+
+\title{Analysis of stellar elemental abundance in the Milky Way galaxy}
+
+\begin{abstract}
+
+    The elemental abundance of F and G dwarf stars in the solar neighbourhood which called Historical "living fossill" can show us the evolution of Galaxy,so it has great significance for us to study abundance of these stars
+.Our work is to observe stars like this and calculate and study elemental abundance in atmosphere of these F and G dwarfs,and know history and evolution of Galaxy at last 
+By use Xinglong 2.16m telescope (Revolution 40000) of NAOC,we get high revolution spectra of 100 stars from F and G dwarfs in the solar neigbourhood. We extract the spectra to one dimension and measure the equivalent widths by IRAF which provided by NAOC,then calculate elemental abundance of 13 elements of the 100 stars combine with the Geneva-Copenhagen Survey(GCS) catalog with Kurucz local thermodynamic equilibrium model,and ,the computing tool is ABUNTEST8 gram package。
+
+\end{abstract}
+
+\section{Introduction}
+
+     Measurement of equivalent widths;The visible spectrum of stars includes the continuous spectrum and the absorption lines in them. After normalization, the continuous spectrum is around 1, while the absorption lines are the sunken part of the continuous spectrum, as shown in figure 2. What we need to measure is the area of this part surrounded by the continuous spectrum and the absorption lines, namely the equivalent width (EW).
+       
+       
+       Element abundance analysis. There are two main methods to analyze element abundance by high-resolution spectrum.The former is used to analyze relatively strong spectral lines without spectral line mixing and is suitable for general abundance analysis.The latter can be used for spectral lines with mixed or weak intensity, and the information of all mixed spectral lines can be taken into account, which is more suitable for detailed abundance analysis.However, no matter which method is adopted, the stellar atmosphere model should be established first, and the abundance of elements can be obtained through theoretical calculation and comparison with the observed results.Since the observed samples are F and G dwarfs, the spectral lines of the elements to be measured are strong and the spectral line mixing is weak. Therefore, in this work, the first method, namely iso-width method, is adopted to calculate the abundance.
+        
+        
+        Establishment of stellar atmosphere model: therefore, Kurucz atmospheric model is adopted in our work, which USES four atmospheric parameters of stars, such as effective temperature Tef, surface gravity 1ogg, metal abundance [Fe/] and micro turbulent velocity, to describe the physical state and change rules of stellar atmosphere.Therefore, to establish a stellar atmosphere model, the four atmospheric parameters should be determined first.
+\begin{equation}
+g=GM/R^2
+\end{equation}
+\begin{equation}
+[Fe/H]=log10\lbrace n\langle Fe\rangle/n\langle H\rangle\rbrace-log10\lbrace n\langle Fe\rangle/n\langle H\rangle\rbrace \odot
+\end{equation}
+
+\begin{figure}[ht!]
+\plotone{001.eps}
+\caption{abundance}
+\end{figure}
+\begin{figure}[ht!]
+\plotone{002.eps}
+\caption{abundance}
+\end{figure}
+\subsection{results}
+    The formation and evolution history of the Milky Way determines that there are differences in kinematics parameters, stellar age and metallicity of different star groups (nucleus sphere, thin disk, thick disk, silver halo, etc.).For now, does not have a definite way to judge any of the sun's neighborhood star on the population composition belongs to the thick plate and thin plate or silver halo, now more generally there are two main classification methods, in 1998, the first is a Fuhrmann 1 (F98) referred to in the use of kinematics, star's age and metallicity comprehensive dividing method;The second is the star group composition division method of pure kinematics adopted by Bensby et al in their work.
+\end{document}
